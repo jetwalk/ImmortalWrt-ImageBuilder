@@ -66,8 +66,7 @@ PACKAGES="$PACKAGES luci-i18n-vlmcsd-zh-cn"
 # Wake-on-LAN
 PACKAGES="$PACKAGES luci-app-wol"
 PACKAGES="$PACKAGES luci-i18n-wol-zh-cn"
-PACKAGES="$PACKAGES luci-app-mosdns"
-PACKAGES="$PACKAGES luci-app-adguardhome"
+
 
 # 文件管理器
 PACKAGES="$PACKAGES luci-i18n-filemanager-zh-cn"

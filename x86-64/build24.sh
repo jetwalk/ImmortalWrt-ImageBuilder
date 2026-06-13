@@ -56,9 +56,13 @@ PACKAGES="$PACKAGES luci-i18n-argon-config-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-package-manager-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
 PACKAGES="$PACKAGES openssh-sftp-server"
-
-# 文件管理器
-PACKAGES="$PACKAGES luci-i18n-filemanager-zh-cn"
+PACKAGES="$PACKAGES luci-app-openclash"
+# WireGuard 插件
+PACKAGES="$PACKAGES wireguard-tools"
+PACKAGES="$PACKAGES kmod-wireguard"
+PACKAGES="$PACKAGES luci-proto-wireguard"
+# vlmcsd 
+PACKAGES="$PACKAGES luci-i18n-vlmcsd-zh-cn"
 # ======== shell/custom-packages.sh =======
 # 合并imm仓库以外的第三方插件
 PACKAGES="$PACKAGES $CUSTOM_PACKAGES"

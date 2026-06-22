@@ -63,13 +63,8 @@ PACKAGES="$PACKAGES kmod-wireguard"
 PACKAGES="$PACKAGES luci-proto-wireguard"
 # vlmcsd 
 PACKAGES="$PACKAGES luci-i18n-vlmcsd-zh-cn"
-# Wake-on-LAN
-PACKAGES="$PACKAGES luci-app-wol"
-PACKAGES="$PACKAGES luci-i18n-wol-zh-cn"
 
 
-# 文件管理器
-PACKAGES="$PACKAGES luci-i18n-filemanager-zh-cn"
 # ======== shell/apk-custom-packages.sh =======
 # 合并imm仓库以外的第三方插件 暂时注释
 PACKAGES="$PACKAGES $CUSTOM_PACKAGES"

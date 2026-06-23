@@ -56,7 +56,6 @@ PACKAGES="$PACKAGES luci-i18n-argon-config-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-package-manager-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
 PACKAGES="$PACKAGES openssh-sftp-server"
-PACKAGES="$PACKAGES luci-app-openclash"
 # WireGuard 插件
 PACKAGES="$PACKAGES wireguard-tools"
 PACKAGES="$PACKAGES kmod-wireguard"
